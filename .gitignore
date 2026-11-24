@@ -1,0 +1,16 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Envíos generados al ejecutar el notebook (solo se versiona el mejor)
+submissions/*.csv
+!submissions/submission_roc_auc_idbits_512bins_5fold.csv
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
